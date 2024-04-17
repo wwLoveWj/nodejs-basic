@@ -1,0 +1,35 @@
+<!--
+ * @Description: 
+ * @Author: Wu Wei
+ * @Date: 2024-04-13 17:47:55
+ * @LastEditTime: 2024-04-13 18:16:09
+ * @LastEditors: Wu Wei
+ * @FilePath: \nodejs-basic\004单点登录的简单理解\sso.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>登录页面</h1>
+    <form action="/success" method="get">
+        <label for="username">
+            用户名： <input name="username" id="username" type="text" />
+        </label>
+        <label for="password">
+            密码： <input name="password" id="password" type="password" />
+        </label>
+        <label for="appId"><input type="hidden" id="appId" name="appId"></label>
+        <button type="submit">登录</button>
+    </form>
+    <script>
+        const appId = location.search.split("=")[1];
+        debugger
+        document.querySelector("#appId").value = appId;
+    </script>
+</body>
+
+</html>
