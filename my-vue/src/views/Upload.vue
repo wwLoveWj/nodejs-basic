@@ -2,14 +2,14 @@
  * @Description: 
  * @Author: Wu Wei
  * @Date: 2024-04-19 15:01:21
- * @LastEditTime: 2024-04-19 15:20:09
+ * @LastEditTime: 2024-04-19 17:58:25
  * @LastEditors: Wu Wei
  * @FilePath: \nodejs-basic\my-vue\src\views\Upload.vue
 -->
 <template>
   <div class="minio-container common-container">
-    <el-button icon="el-icon-upload2" type="primary" @click="handleUploadFile"
-      >上传</el-button
+    <el-button icon="el-icon-upload" type="primary" @click="handleUploadFile"
+      >上传图片</el-button
     >
     <transition name="transition-preview">
       <div class="demo-image__preview" style="margin-top: 20px" v-if="imageUrl">

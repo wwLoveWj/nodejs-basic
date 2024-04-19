@@ -1,6 +1,7 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
 import Upload from "./views/Upload.vue"
+import Editor from "./views/editor/index.vue"
 // 登陆成功之后后端重定向的时候会携带token
 // const token = location.search.split("=")[1];
 // debugger
@@ -21,6 +22,7 @@ import Upload from "./views/Upload.vue"
     </a>
   </div>
   <Upload />
+  <Editor/>
 </template>
 
 <style scoped>

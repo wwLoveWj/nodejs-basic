@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@element-plus/icons": "^0.0.11",
     "axios": "^1.6.8",
     "element-plus": "^2.7.0",
     "html2canvas": "^1.4.1",
+    "monaco-editor": "0.44.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {

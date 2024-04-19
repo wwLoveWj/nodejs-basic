@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Wu Wei
  * @Date: 2024-04-17 20:47:59
- * @LastEditTime: 2024-04-19 15:35:57
+ * @LastEditTime: 2024-04-19 15:55:14
  * @LastEditors: Wu Wei
  * @FilePath: \nodejs-basic\007文件上传\index.js
  */
@@ -10,7 +10,7 @@
 const multer = require("multer");
 // 2.配置：上传文件会保护这个目录
 const upload = multer({ dest: "upload/" });
-// uploads表示目录名，你也可以设置其他的
+// upload表示目录名，你也可以设置其他的
 
 const express = require("express");
 const cors = require("cors")

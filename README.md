@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Wu Wei
  * @Date: 2024-04-12 22:05:32
- * @LastEditTime: 2024-04-17 20:59:59
+ * @LastEditTime: 2024-04-19 18:13:05
  * @LastEditors: Wu Wei
  * @FilePath: \nodejs-basic\README.md
 -->
@@ -25,3 +25,8 @@ express-fileupload:
             ---用于上传文件的Simple Express中间件。 它解析multipart/form-data请求，提取文件（如果有），并在req.files属性下使它们可用。
 morgan:     ---用于记录HTTP请求的Node.js中间件。
 lodash      ---一个JavaScript库，为数组，数字，对象，字符串等提供实用程序功能。
+
+## vscode代码片段的解码工具
+首选项-->配置用户代码片段-->新建全局代码片段文件-->点击后随便取个名字（例如：vue3）然后他就会建好文件，你直接根据下面的这个连接去生成你想要的代码片段--------------------------
+复制自己的代码片段并进入下方的转码链接：
+转码链接：[snippet generator](https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode)

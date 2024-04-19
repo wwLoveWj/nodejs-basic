@@ -17,6 +17,11 @@
   resolved "https://registry.yarnpkg.com/@element-plus/icons-vue/-/icons-vue-2.3.1.tgz#1f635ad5fdd5c85ed936481525570e82b5a8307a"
   integrity sha512-XxVUZv48RZAd87ucGS48jPf6pKu0yV5UCg9f4FFwtrYxXOwWuVJo6wOvSLKEoMQKjv8GsX/mhP6UsC1lRwbUWg==
 
+"@element-plus/icons@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@element-plus/icons/-/icons-0.0.11.tgz#9b187c002774548b911850d17fa5fc2f9a515f57"
+  integrity sha512-iKQXSxXu131Ai+I9Ymtcof9WId7kaXvB1+WRfAfpQCW7UiAMYgdNDqb/u0hgTo2Yq3MwC4MWJnNuTBEpG8r7+A==
+
 "@esbuild/android-arm64@0.18.20":
   version "0.18.20"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.18.20.tgz#984b4f9c8d0377443cc2dfcef266d02244593622"
@@ -462,6 +467,11 @@ mime-types@^2.1.12:
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
   dependencies:
     mime-db "1.52.0"
+
+monaco-editor@0.44.0:
+  version "0.44.0"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.44.0.tgz#3c0fe3655923bbf7dd647057302070b5095b6c59"
+  integrity sha512-5SmjNStN6bSuSE5WPT2ZV+iYn1/yI9sd4Igtk23ChvqB7kDk9lZbB9F5frsuvpB+2njdIeGGFf2G4gbE6rCC9Q==
 
 nanoid@^3.3.7:
   version "3.3.7"
