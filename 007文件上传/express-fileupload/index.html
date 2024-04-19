@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+<input type="file" name="avatar" id="avatar"><br/>
+<button id="upload-button">上传</button>
+<script>
+    document.getElementById("upload-button").onclick = function () {
+        console.log(document.getElementById("avatar").files[0]);
+    }
+</script>
+</body>
+</html>
