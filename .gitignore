@@ -1,3 +1,4 @@
 node_modules
-my-react/*
-my-vue/*
+# my-react/*
+# my-vue/*
+upload

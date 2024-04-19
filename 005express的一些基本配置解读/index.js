@@ -2,13 +2,14 @@
  * @Description: 
  * @Author: Wu Wei
  * @Date: 2024-04-17 14:22:26
- * @LastEditTime: 2024-04-17 15:38:18
+ * @LastEditTime: 2024-04-17 20:47:08
  * @LastEditors: Wu Wei
  * @FilePath: \nodejs-basic\005express的一些基本配置解读\index.js
  */
 const express = require("express");
 const logger = require('morgan') // 日志模块  use之后会在控制台打印接口的请求日志
 const favicon = require('serve-favicon') // 网站图标
+
 const  bodyParser = require('body-parser');
 const path = require("path");
 
@@ -22,6 +23,7 @@ app.use(express.static(__dirname + "/public"))
 // 自定义网站小图标，或者直接在public下放一个favicon.ico文件。
 console.log(__dirname+"/public/icon/favicon.ico","ico路径");
 // icon不生效，不知道为啥
+// ico格式图片的生成网站：https://boke112.com/tools/toico/
 app.use(favicon(__dirname + '/public/icon/favicon.ico')) // __dirname, 表示项目的根目录，/myapp + '/public/icon/icon.webp'
 // app.use(favicon(path.join(__dirname, 'public', 'vite.svg')))
 
