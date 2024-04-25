@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/wwLoveWj/nodejs-basic#readme",
   "dependencies": {
+    "axios": "^1.6.8",
     "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "express-session": "^1.18.0",
@@ -27,6 +29,7 @@
     "md5": "^2.3.0",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
+    "puppeteer": "^22.7.0",
     "serve-favicon": "^2.5.0"
   }
 }
